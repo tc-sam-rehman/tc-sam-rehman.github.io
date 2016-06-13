@@ -1,0 +1,91 @@
+.prod_cell{
+
+}
+
+.prod_img{
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    margin: 0;
+    border-bottom:1px solid rgba(0,0,0,.1);
+    cursor: pointer; cursor: hand;
+}
+.pi-title{
+  float: left;
+  width: 50%
+}
+.pi-price{
+  float: right;
+  padding: 0px;
+  width: 20%;
+}
+.prod_img .material-icons{
+  position:absolute;
+  top:15px;
+  right:15px;
+}
+.prod_but{
+    align-items: flex-start;
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: "LEGOSemiBold","Helvetica","Arial",sans-serif;
+}
+.qty_input{
+  width:80px;
+  padding-top: 0px;
+}
+.qty_spinner{
+  text-align: center;
+  vertical-align: middle;
+  margin: 0;
+}
+.qty_spinner .mdl-textfield__label{
+  top: 4px;
+}
+.pt-dialog{
+  width: 400px;
+}
+
+.pt-dialog li a{
+  color: #2d8ffa;
+}
+
+.mdl-dialog .prod_img{
+    border:1px solid rgba(0,0,0,.1);
+    float: left;
+}
+
+.mdl-dialog .thumb_img{
+    width: 50px;
+    float: left;
+}
+
+.thumb_2, .thumb_3{
+    border: 1px solid rgba(0,0,0,.1);
+}
+.mdl-dialog .thumb_1{
+    border: 1px solid #2d8ffa;
+}
+
+.pt-refine .mdl-checkbox__box-outline{
+    border-color: #eceff1 !important;
+}
+.pt-refine h4{
+  margin:12px 0 8px;
+}
+.pt-refine h4{
+  padding-left: 15px;
+  top: 5px
+}
+.pt-viewmore, .pt-viewmore a{
+  color: #2d8ffa;
+}
+.bold{
+  font-family: "LEGOSemiBold","Helvetica","Arial",sans-serif;
+}
+.bolder{
+  font-family: "LEGOStdBold","Helvetica","Arial",sans-serif;
+}
+.em12{
+  font-size:1.2em;
+}
