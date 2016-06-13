@@ -68,26 +68,31 @@
 }
 
 .pt-refine .mdl-checkbox__box-outline{
-    border-color: #eceff1 !important;
+    border-color: rgba(0, 0, 0, .87);
 }
 .pt-refine h4{
   margin:12px 0 8px;
+  color: rgba(0, 0, 0, .87);
 }
 .pt-refine h4{
   padding-left: 15px;
   top: 5px
+  color: rgba(0, 0, 0, .87);
 }
 .pt-refine h5{
   margin-left: 20px;
   margin-top: 10px;
   margin-bottom: 0px;
   padding-bottom: 0px;
+  color: rgba(0, 0, 0, .87);
 }
 .pt-refine h6{
   margin: 18px 0 4px;
+  color: rgba(0, 0, 0, .87);
 }
 .pt-refine .mdl-checkbox__label{
   font-size: 14px;
+  color: rgba(0, 0, 0, .87);
 }
 .pt-viewmore, .pt-viewmore a{
   color: #2d8ffa;
@@ -101,4 +106,33 @@
 }
 .em12{
   font-size:1.2em;
+}
+.demo-drawer-header{
+  height: 121px;
+}
+.demo-drawer-header h4{
+  margin: 12px 0px 0px;
+}
+.demo-drawer{
+  box-shadow: none;
+}
+@media (min-width: 840px){
+  .mdl-grid{
+    padding: 8px 0px 8px 0px;
+  }
+
+}
+.mdl-tabs.is-upgraded .mdl-tabs__tab.is-active:after{
+  background: #2d8ffa;
+}
+.mdl-textfield__label:after{
+  background: #2d8ffa;
+}
+
+
+.demo-layout .demo-header .mdl-textfield{
+  padding: 0px;
+  margin-top: 45px;
+  margin: 0 auto;
+  padding-top: 50px;
 }
