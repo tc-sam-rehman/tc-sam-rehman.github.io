@@ -68,7 +68,15 @@
         <div class="mdl-layout__header-row">
           <span class="mdl-layout-title"></span>
           <div class="mdl-layout-spacer"></div>
-
+          <div class="mdl-textfield mdl-js-textfield mdl-textfield--expandable">
+            <label class="mdl-button mdl-js-button mdl-button--icon" for="search">
+              <i class="material-icons">search</i>
+            </label>
+            <div class="mdl-textfield__expandable-holder">
+              <input class="mdl-textfield__input" type="text" id="search">
+              <label class="mdl-textfield__label" for="search">Enter your query...</label>
+            </div>
+          </div>
           <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon" id="hdrbtn">
             <i class="material-icons">more_vert</i>
           </button>
@@ -81,7 +89,7 @@
       </header>
       <div class="demo-drawer mdl-layout__drawer mdl-color--blue-grey-900 mdl-color-text--blue-grey-50">
         <header class="demo-drawer-header">
-          <div class="mdl-textfield mdl-js-textfield mdl-textfield">
+          <!--<div class="mdl-textfield mdl-js-textfield mdl-textfield">
             <label class="mdl-button mdl-js-button mdl-button--icon" for="search">
               <i class="material-icons">search</i>
             </label>
@@ -90,9 +98,10 @@
               <input class="mdl-textfield__input" type="text" id="search">
               <label class="mdl-textfield__label" for="search">Enter your query...</label>
             </div>
-          </div>
-          <!--<img src="images/user.jpg" class="demo-avatar">
-          <div class="demo-avatar-dropdown">
+          </div>-->
+          <img src="https://ideas.lego.com/static/img/footlogo@2x.png" width="60" height="60" >
+          <h3 class="bolder" style="color:white;line-height:20px">Pick a Brick</h3>
+          <!--<div class="demo-avatar-dropdown">
             <span>hello@example.com</span>
             <div class="mdl-layout-spacer"></div>
             <button id="accbtn" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
@@ -265,13 +274,6 @@
       </div>
       <main class="mdl-layout__content mdl-color--grey-100">
         <div class="mdl-grid demo-content">
-          <div class="mdl-color--white mdl-shadow--2dp mdl-cell mdl-cell--12-col mdl-grid">
-            <h1 class="bolder">Pick a Brick</h1>
-            <!--<svg fill="currentColor" width="200px" height="200px" viewBox="0 0 1 1" class="demo-chart mdl-cell mdl-cell--4-col mdl-cell--3-col-desktop">
-              <use xlink:href="#piechart" mask="url(#piemask)" />
-              <text x="0.5" y="0.5" font-family="Roboto" font-size="0.3" fill="#888" text-anchor="middle" dy="0.1">82<tspan font-size="0.2" dy="-0.07">%</tspan></text>
-            </svg>-->
-          </div>
           <div class="mdl-tabs mdl-js-tabs">
               <div class="mdl-tabs__tab-bar">
                  <a href="#tab1-panel" class="mdl-tabs__tab is-active">Results</a>
@@ -279,13 +281,17 @@
                  <a href="#tab3-panel" class="mdl-tabs__tab">Community</a>
               </div>
               <div class="mdl-tabs__panel is-active" id="tab1-panel">
+                <div class="mdl-color--white mdl-shadow--2dp mdl-cell mdl-cell--12-col mdl-grid">
+                  <div style="padding-left:15px" class="mdl-cell--6-col">Showing 27 Results</div>
+                  <div style="text-align:right" class="mdl-cell--6-col">Page 1 of 2</div>
+                </div>
                 <div class="demo-cards mdl-cell mdl-cell--12-col mdl-cell--8-col-tablet mdl-grid mdl-grid">
                   <div class="demo-updates mdl-card mdl-shadow--2dp mdl-cell mdl-cell--4-col mdl-cell--4-col-tablet mdl-cell--3-col-desktop prod_cell">
                     <div id="show-dialog" class="mdl-card--expand prod_img">
                       <i class="material-icons">launch</i>
                       <img src="images/brick_blue.jpg" alt=""/>
                     </div>
-                    <div class="mdl-card__supporting-text mdl-color-text--grey-600 bold em12">
+                    <div class="mdl-card__supporting-text mdl-color-text--grey-600  ">
                       <span class="pi-title">Brick 2 x 2</span>
                       <span class="mdl-card__supporting-text pi-price">£0.12</span>
                     </div>
@@ -317,7 +323,7 @@
                       <i class="material-icons">launch</i>
                       <img src="images/brick_pink.jpg" alt=""/>
                     </div>
-                    <div class="mdl-card__supporting-text mdl-color-text--grey-600 bold em12">
+                    <div class="mdl-card__supporting-text mdl-color-text--grey-600  ">
                       <span class="pi-title">Brick 2 x 2</span>
                       <span class="mdl-card__supporting-text pi-price">£0.12</span>
                     </div>
@@ -349,7 +355,7 @@
                       <i class="material-icons">launch</i>
                       <img src="images/brick_teal.jpg" alt=""/>
                     </div>
-                    <div class="mdl-card__supporting-text mdl-color-text--grey-600 bold em12">
+                    <div class="mdl-card__supporting-text mdl-color-text--grey-600  ">
                       <span class="pi-title">Brick 2 x 2</span>
                       <span class="mdl-card__supporting-text pi-price">£0.12</span>
                     </div>
@@ -381,7 +387,7 @@
                       <i class="material-icons">launch</i>
                       <img src="images/brick_lpink.jpg" alt=""/>
                     </div>
-                    <div class="mdl-card__supporting-text mdl-color-text--grey-600 bold em12">
+                    <div class="mdl-card__supporting-text mdl-color-text--grey-600  ">
                       <span class="pi-title">Brick 2 x 2</span>
                       <span class="mdl-card__supporting-text pi-price">£0.12</span>
                     </div>
@@ -413,7 +419,7 @@
                       <i class="material-icons">launch</i>
                       <img src="images/brick_green.jpg" alt=""/>
                     </div>
-                    <div class="mdl-card__supporting-text mdl-color-text--grey-600 bold em12">
+                    <div class="mdl-card__supporting-text mdl-color-text--grey-600  ">
                       <span class="pi-title">Brick 2 x 2</span>
                       <span class="mdl-card__supporting-text pi-price">£0.12</span>
                     </div>
