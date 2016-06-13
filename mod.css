@@ -77,8 +77,21 @@
   padding-left: 15px;
   top: 5px
 }
+.pt-refine h5{
+  margin-left: 20px;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+.pt-refine h6{
+  margin: 18px 0 4px;
+}
+.pt-refine .mdl-checkbox__label{
+  font-size: 14px;
+}
 .pt-viewmore, .pt-viewmore a{
   color: #2d8ffa;
+  font-size: 12px;
 }
 .bold{
   font-family: "LEGOSemiBold","Helvetica","Arial",sans-serif;
