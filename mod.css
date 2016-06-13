@@ -125,7 +125,7 @@
 .mdl-tabs.is-upgraded .mdl-tabs__tab.is-active:after{
   background: #2d8ffa;
 }
-.mdl-textfield__label:after{
+.mdl-layout__header-row .mdl-textfield__label:after{
   background: #2d8ffa;
 }
 
