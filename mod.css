@@ -129,10 +129,20 @@
   background: #2d8ffa;
 }
 
-
 .demo-layout .demo-header .mdl-textfield{
   padding: 0px;
   margin-top: 45px;
   margin: 0 auto;
   padding-top: 50px;
+}
+.demo-drawer{
+  overflow-y:visible !important; overflow-x:visible !important
+}
+
+.mdl-layout__content{
+  overflow-y: visible !important;
+  overflow-x: visible !important;
+}
+.mdl-layout__drawer{
+  border-right: 1px solid #424242;
 }
