@@ -146,3 +146,21 @@
 .mdl-layout__drawer{
   //border-right: 1px solid #424242;
 }
+
+@media (min-width: 1073px){
+  .qty_input{
+    //width: 40px;
+  }
+}
+
+@media (min-width: 840px){
+  .pi-price{
+    padding-right: 15px;
+  }
+  .qty_input{
+    width: 50px;
+  }
+  .qty_spinner .mdl-textfield__label{
+    font-size: 12px;
+  }
+}
